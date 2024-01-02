@@ -1,4 +1,4 @@
-hotKey:
+hotKeys:
   F1:
     shortCut:     F1
     description:  Viewing Pods
