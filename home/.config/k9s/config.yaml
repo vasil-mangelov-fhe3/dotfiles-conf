@@ -1,32 +1,18 @@
 k9s:
   liveViewAutoRefresh: true
+  screenDumpDir: /tmp/k9s-screens
   refreshRate: 2
   maxConnRetry: 5
   readOnly: false
   noExitOnCtrlC: false
-  skipLatestRevCheck: false
-  disablePodCounting: false
   ui:
     enableMouse: true
     headless: false
     logoless: false
     crumbsless: false
     noIcons: false
-  logger:
-    tail: 100
-    buffer: 5000
-    sinceSeconds: 60
-    fullScreenLogs: false
-    textWrap: false
-    showTime: true
-  thresholds:
-    cpu:
-      critical: 90
-      warn: 80
-    memory:
-      critical: 90
-      warn: 80
-  screenDumpDir: /tmp/k9s-screens
+  skipLatestRevCheck: false
+  disablePodCounting: false
   shellPod:
     image: busybox:1.35.0
     namespace: default
@@ -43,3 +29,17 @@ k9s:
           - example
         env:
           - dev
+  logger:
+    tail: 100
+    buffer: 5000
+    sinceSeconds: 60
+    fullScreenLogs: false
+    textWrap: false
+    showTime: true
+  thresholds:
+    cpu:
+      critical: 90
+      warn: 80
+    memory:
+      critical: 90
+      warn: 80
