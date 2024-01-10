@@ -21,14 +21,9 @@ k9s:
       memory: 100Mi
   imageScans:
     enable: false
-    blackList:
-      namespaces:
-        - kube-system
-      labels:
-        k8s-app:
-          - example
-        env:
-          - dev
+    exclusions:
+      namespaces: []
+      labels: {}
   logger:
     tail: 100
     buffer: 5000
