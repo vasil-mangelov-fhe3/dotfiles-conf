@@ -2,7 +2,7 @@
   handle_size = 1
   scroll_tabbar = True
   homogeneous_tabbar = False
-  always_on_top = Flase
+  always_on_top = False
   sticky = True
   title_hide_sizetext = True
   title_transmit_fg_color = "#c5c8c6"
