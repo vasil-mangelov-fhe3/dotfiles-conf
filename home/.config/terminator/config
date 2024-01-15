@@ -13,7 +13,7 @@
   enabled_plugins = InactivityWatch, CustomCommandsMenu, TerminalShot, APTURLHandler
   suppress_multiple_term_dialog = True
   title_use_system_font = False
-  title_font = DejaVuSansM Nerd Font Mono 9
+  title_font = DejaVuSansM Nerd Font Propo 9
 [keybindings]
   zoom_in = None
   zoom_out = None
@@ -45,7 +45,7 @@
     background_type = transparent
     cursor_blink = False
     cursor_color = "#c5c8c6"
-    font = DejaVuSansMono Nerd Font Mono 10
+    font = DejaVuSansM Nerd Font Mono Regular 10
     foreground_color = "#d3dae3"
     scrollback_lines = 5000
     scrollback_infinite = True
